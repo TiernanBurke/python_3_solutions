@@ -1,0 +1,24 @@
+import turtle 
+
+wn=turtle.Screen()
+luke=turtle.Turtle()
+
+def star(turtle,length):
+  for i in range(5):
+    turtle.left(144)
+    turtle.forward(length)
+    
+luke.speed(0)
+luke.penup()
+luke.forward(70)
+luke.pendown()
+
+for i in range(5):
+  star(luke,20)
+  luke.penup()
+  luke.forward(70)
+  luke.right(144)
+  luke.pendown()
+
+
+wn.mainloop()
