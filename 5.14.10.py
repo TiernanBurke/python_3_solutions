@@ -1,13 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      Tiernan
-#
-# Created:     28/08/2020
-# Copyright:   (c) Tiernan 2020
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
 
 def find_hypot(adj,opp):
     '''Returns the hypotenuse of a right angled triangle'''
